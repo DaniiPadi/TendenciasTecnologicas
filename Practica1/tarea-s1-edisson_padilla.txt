@@ -1,0 +1,35 @@
+ 3706  mkdir -p proyecto_comandos/{documentos,imagenes,scripts}
+ 3707  cd proyecto_comandos
+ 3708  tree
+ 3709  cd documentos
+ 3710  echo "Linea 1" > notas.txt\n
+ 3711  echo "Linea 2" >> notas.txt\n
+ 3712  echo "Linea 3" >> notas.txt\n
+ 3713  ls \n
+ 3714  cat notas.txt
+ 3715  cp notas.txt ../scripts/backup_notas.txt
+ 3716  cd ..
+ 3717  cd scripts
+ 3718  ls
+ 3719  cat backup_notas.txt
+ 3720  mv backup_notas.txt ../imagenes/
+ 3721  cd ..
+ 3722  tree
+ 3723  cd documentos
+ 3724  touch resumen.txt
+ 3725  cat notas.txt > resumen.txt
+ 3726  cat resumen.txt
+ 3727  echo "Linea 4 nueva" >> resumen.txt
+ 3728  cat resumen.txt
+ 3729  cd ..
+ 3730  rm imagenes/backup_notas.txt
+ 3731  tree
+ 3732  rmdir imagenes
+ 3733  tree
+ 3734  cd 
+ 3735  cd ~/InstitutoSudamericano/Ciclo4/TendenciasTecnologicas/Practica1
+ 3736  history | tail -n 34 > tarea-s1-edisson_padilla.txt
+ 3737  ls 
+ 3738  cat tarea-s1-edisson_padilla.txt
+ 3739  fc -l | tail -n 34 > tarea-s1-edisson_padilla.txt
+ 3740  cat tarea-s1-edisson_padilla.txt
