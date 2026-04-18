@@ -25,6 +25,16 @@ Además, el uso de la terminal en Linux permite automatizar tareas mediante scri
 
 Este tipo de habilidades son altamente valoradas en el ámbito profesional, ya que facilitan la gestión de servidores, la manipulación de archivos y la resolución de problemas técnicos de forma rápida y precisa.
 
+En esta práctica se utilizó Arch Linux como sistema operativo, el cual es una distribución basada en Linux que se caracteriza por su simplicidad y control total sobre el sistema. El uso de la terminal en este entorno permitió aplicar de manera directa los comandos estudiados, reforzando el aprendizaje práctico de la línea de comandos.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/404c7c75-6952-431f-8380-10c4110d4d8a" width="600">
+</p>
+
+<p align="center">
+  <em>Figura 1. Uso de la terminal Wave en Arch Linux durante la ejecución de comandos</em>
+</p>
+
 
 
 ## 4. Conocimientos previos.
