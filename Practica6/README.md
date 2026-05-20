@@ -28,6 +28,7 @@ Además, se creó un volumen para MySQL. Los volúmenes son importantes porque p
 
 En esta práctica se utilizó Arch Linux como sistema operativo anfitrión. Se verificó que Docker estuviera instalado y activo, se creó la carpeta del proyecto, se construyó el archivo `docker-compose.yml`, se levantaron los servicios y se comprobó su funcionamiento desde el navegador. Finalmente, se accedió a WordPress mediante el puerto `8080` y a phpMyAdmin mediante el puerto `8081`, verificando que el entorno multicontenedor funcionara correctamente.
 
+De acuerdo con la documentación oficial de Docker, Docker Compose permite definir aplicaciones multicontenedor mediante un archivo YAML, donde se organizan servicios, redes y volúmenes. Esto se relaciona directamente con la práctica realizada, porque WordPress necesita conectarse con una base de datos MySQL y, además, phpMyAdmin permite administrar esa base de datos desde el navegador. Por otra parte, los volúmenes permiten conservar información fuera del ciclo de vida del contenedor, lo cual es importante en este caso porque los datos de MySQL deben mantenerse aunque el contenedor sea detenido o recreado. Por esta razón, Docker Compose no solo facilita la ejecución del entorno, sino que también permite trabajar de una forma más ordenada, repetible y cercana a un proyecto real.
 ---
 
 ## 4. Conocimientos previos
@@ -404,18 +405,18 @@ Finalmente, mediante phpMyAdmin se pudo visualizar la base de datos relacionada 
 
 ## 12. Bibliografía
 
-- Docker Inc. (2024). *Información general de Docker Compose*. Docker Documentation. https://docs.docker.com/compose/
+Docker Inc. (s.f.). *Docker Compose overview*. Docker Documentation. https://docs.docker.com/compose/
 
-- Docker Inc. (2024). *Referencia del archivo Compose*. Docker Documentation. https://docs.docker.com/reference/compose-file/
+Docker Inc. (s.f.). *Compose file reference*. Docker Documentation. https://docs.docker.com/reference/compose-file/
 
-- Docker Inc. (2024). *Volúmenes en Docker*. Docker Documentation. https://docs.docker.com/engine/storage/volumes/
+Docker Inc. (s.f.). *Volumes*. Docker Documentation. https://docs.docker.com/engine/storage/volumes/
 
-- Docker Hub. (2024). *WordPress Official Image*. https://hub.docker.com/_/wordpress
+Docker Hub. (s.f.). *WordPress official image*. https://hub.docker.com/_/wordpress
 
-- Docker Hub. (2024). *MySQL Official Image*. https://hub.docker.com/_/mysql
+Docker Hub. (s.f.). *MySQL official image*. https://hub.docker.com/_/mysql
 
-- Docker Hub. (2024). *phpMyAdmin Official Image*. https://hub.docker.com/_/phpmyadmin
+Docker Hub. (s.f.). *phpMyAdmin official image*. https://hub.docker.com/_/phpmyadmin
 
-- phpMyAdmin contributors. (2024). *phpMyAdmin: Bringing MySQL to the web*. https://www.phpmyadmin.net/
+phpMyAdmin contributors. (s.f.). *phpMyAdmin: Bringing MySQL to the web*. https://www.phpmyadmin.net/
 
-- WordPress.org. (2024). *Acerca de WordPress*. https://es.wordpress.org/about/
+WordPress.org. (s.f.). *Acerca de WordPress*. https://es.wordpress.org/about/
