@@ -89,7 +89,7 @@ docker compose version
 sudo systemctl status docker
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_1.png" alt="Verificación de Docker y archivo docker compose" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_1" src="https://github.com/user-attachments/assets/eca5d44c-fc26-4209-a72d-8e5bcca8184a" />
 
 <p align="center">
   <em>Figura 1. Verificación de Docker, ubicación del proyecto y edición inicial del archivo docker-compose.yml.</em>
@@ -185,7 +185,7 @@ volumes:
   mysql_data:
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_2.png" alt="Archivo docker-compose.yml y contenedores activos" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_2" src="https://github.com/user-attachments/assets/7744294f-1197-4535-a61b-0c79a568df03" />
 
 <p align="center">
   <em>Figura 2. Configuración del archivo docker-compose.yml, ejecución de Docker Compose y verificación de contenedores.</em>
@@ -241,7 +241,7 @@ Después se inspeccionó la red del proyecto con:
 docker network inspect wordpress-docker_wordpress_network
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_3.png" alt="Verificación de red Docker Compose" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_3" src="https://github.com/user-attachments/assets/81d935bf-9969-495a-93bc-48c25029c4d3" />
 
 <p align="center">
   <em>Figura 3. Verificación e inspección de la red personalizada creada por Docker Compose.</em>
@@ -265,7 +265,7 @@ Luego se inspeccionó el volumen con:
 docker volume inspect wordpress-docker_mysql_data
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_4.png" alt="Volumen Docker e instalación de WordPress" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_4" src="https://github.com/user-attachments/assets/b8f05ed6-8965-40dd-8b38-15813378853a" />
 
 <p align="center">
   <em>Figura 4. Verificación del volumen mysql_data y acceso a la instalación inicial de WordPress.</em>
@@ -291,7 +291,7 @@ En esta pantalla se completó la instalación inicial de WordPress, ingresando l
 
 Luego de completar el formulario de instalación, WordPress mostró el mensaje de instalación correcta. Esto confirmó que WordPress pudo conectarse con la base de datos MySQL definida en el archivo `docker-compose.yml`.
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_5.png" alt="Instalación completada y panel de WordPress" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_5" src="https://github.com/user-attachments/assets/985b9272-6fd1-4045-9722-6bedd6028e4e" />
 
 <p align="center">
   <em>Figura 5. Instalación completada de WordPress y acceso al panel de administración.</em>
@@ -329,7 +329,7 @@ Contraseña:
 root_pass
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_6.png" alt="Acceso a phpMyAdmin y base de datos" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_6" src="https://github.com/user-attachments/assets/c540e164-1aaa-4c46-9e79-710ee43bcc98" />
 
 <p align="center">
   <em>Figura 6. Inicio de sesión en phpMyAdmin y visualización de la base de datos de WordPress.</em>
@@ -353,7 +353,7 @@ Finalmente, se revisaron los logs de los contenedores para comprobar que los ser
 docker compose logs
 ```
 
-<img src="sandbox:/mnt/data/practica6_imgs/practica6_pagina_7.png" alt="Logs finales de Docker Compose" width="700"/>
+<img width="1192" height="1684" alt="practica6_pagina_7" src="https://github.com/user-attachments/assets/d06782cb-503c-495c-8c90-c69facfd92f8" />
 
 <p align="center">
   <em>Figura 7. Revisión de logs finales de los servicios ejecutados con Docker Compose.</em>
