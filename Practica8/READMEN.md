@@ -540,26 +540,10 @@ Finalmente, se implementó un Dockerfile con multi-stage build para optimizar la
 - Implementar multi-stage builds para reducir el tamaño de la imagen final.
 - Revisar el puerto configurado antes de probar la aplicación en el navegador.
 - Mantener organizadas las capturas de pantalla dentro de una carpeta llamada `imagenes`.
-
+- 
 ---
 
-## 12. Resumen del audio
-
-Para la entrega se adjunta un archivo de audio en formato `.mp3` con una duración mayor a 60 segundos. En el audio se explica con palabras propias lo aprendido durante la práctica.
-
-Guion usado para el audio:
-
-En esta semana aprendí a automatizar el despliegue de una aplicación backend utilizando Docker y Docker Compose. Primero cloné el proyecto base desde GitHub y configuré un archivo .env para manejar las variables de entorno de forma separada. Luego creé servicios para PostgreSQL y pgAdmin dentro de un archivo docker-compose.yml, usando volúmenes para mantener los datos y una red para que los contenedores puedan comunicarse entre sí. También construí una imagen para el backend usando un Dockerfile y levanté el contenedor junto con la base de datos. Después verifiqué la conexión desde pgAdmin y también desde la terminal usando psql. Finalmente investigué sobre multi-stage builds, que permiten separar la etapa de compilación de la etapa de ejecución, logrando una imagen más limpia y optimizada. Esta práctica me ayudó a entender mejor cómo se despliega una aplicación real con varios servicios conectados.
-
-Archivo de audio:
-
-```text
-audio_semana8.mp3
-```
-
----
-
-## 13. Bibliografía
+## 12. Bibliografía
 
 Docker Inc. (s.f.). *Descripción general de Docker Compose*. Docker Documentation. https://docs.docker.com/compose/
 
